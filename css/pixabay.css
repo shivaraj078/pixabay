@@ -1,0 +1,183 @@
+/* @import 'https://fonts.googleapis.com/css?family=Open+Sans&display=swap'; */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    /* background: black; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo
+{
+    /* background: red; */
+    width: 10%;
+    float: left;
+    background: url('../images/sprites.png');
+    height: 50px;
+    background-position: 10px 50px;
+}
+
+.leftmenu
+{
+    /* background: green; */
+    float: left;
+    margin: 0px 0px 0px 30px;
+    width: 42%;
+}
+
+.rightmenu
+{
+    /* background: yellow; */
+    width: 25%;
+    float: right;
+}
+
+ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline;
+}
+
+.leftmenu>ul>li>a, .rightmenu>ul>li>a
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    /* height: 1000px;        a tag is inline. doesnot support height,width,margin top and bottom,padding top and bottom
+    width: 1000px; */
+}
+
+.leftmenu>ul>li, .rightmenu>ul>li
+{
+    display: inline-block;
+}
+
+#headerBlock
+{
+    /* padding: 13px; */
+    z-index: 1;
+    position: relative;
+}
+
+.rightmenu>ul>li:nth-child(4)                /*or :last-child, if it is the last element*/
+{
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 2px 15px!important;
+}
+
+.explore
+{
+    background: url('../images/sprites.png');
+    background-position: 128px 488px;
+    padding: 0px 20px 0px 0px;
+}
+
+/* slider section css here */
+#sliderSection
+{
+    color: white;
+    background: url('../images/10-14-50-567_1440x480.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 360px;
+    text-align: center;
+    /* position: absolute; */
+    top: 0;
+    padding-top: 150px;
+}
+
+#sliderSection>header>h1
+{
+    font-size: 32px;
+}
+
+#sliderSection>footer>form>input
+{
+    padding: 22px;
+    width: 60%;
+    margin-top: 30px;
+    border: 0;
+}
+
+.searchIcon
+{
+    position: relative;
+}
+
+.searchIcon i
+{
+    position: absolute;
+    left: 16px;
+    top: 4px;
+    color: grey;
+    font-size: 20px;
+    z-index: 1;
+}
+
+#sliderSection>footer>form>input::placeholder
+{
+    padding: 0px 30px;
+    font-size: 16px;
+    position: relative;
+    top:5px;
+}
+
+.imageText
+{
+    position: absolute;
+}
+
+.imageText>select
+{
+    position: relative;
+    top: 50px;
+    right: 120px;
+    border: none;
+}
+
+.img1
+{   
+    width: 31.5%;
+    float: left;
+    margin: 10px 7px;
+}
+
+.img2
+{   
+    width: 31.5%;
+    float: left;
+    margin: 10px 7px;
+}
+
+.img3
+{   
+    width: 16%;
+    float: left;
+    margin: 10px 7px;
+    
+}
+
+.img4
+{   
+    width: 16%;
+    float: left;
+    margin: 10px 7px;
+}
+
+#imageSection img
+{
+    width: 100%;
+    height: 300px;
+}
+
+#imageSection
+{
+    width: 98%;
+    margin: -12px auto;
+}
